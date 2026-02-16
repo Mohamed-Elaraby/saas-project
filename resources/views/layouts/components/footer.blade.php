@@ -1,0 +1,13 @@
+
+            <footer class="footer mt-auto py-3 text-center">
+                <div class="container">
+                    <span class="text-muted"> Copyright © <span id="year"></span> <a
+                            href="javascript:void(0);" class="text-dark fw-medium">MOHAMED-ELARABY</a>.
+                        Designed with <span class="ri-heart-fill text-danger"></span> by <a href="javascript:void(0);">
+                            <span class="fw-medium text-primary text-decoration-underline">MOHAMED-ELARABY</span>
+                        </a> All
+                        rights
+                        reserved
+                    </span>
+                </div>
+            </footer>

@@ -1,0 +1,6 @@
+@media print {
+    .no_print_in_datatable
+    {
+        display: none;
+    }
+}

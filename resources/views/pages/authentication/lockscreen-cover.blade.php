@@ -1,0 +1,87 @@
+@extends('layouts.custom-master')
+
+@section('styles')
+
+
+@endsection
+
+@section('content')
+
+@section('body')
+<body class="bg-white">
+@endsection
+        
+            <div class="row authentication mx-0">
+
+                <div class="col-xxl-6 col-xl-7 col-lg-7 d-xl-block d-none px-0">
+                    <div class="authentication-cover bg-primary">
+                        <div class="authentication-cover-image">
+                            <div class="text-start">
+                                <h1 class="text-fixed-white mb-1 fw-medium">Welcome!</h1>
+                                <p class="text-fixed-white mb-1">Let's get Started with our product just sign up with simple process and make your requirements .There are many variations of passages of Lorem Ipsum available.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-5 col-lg-12">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-xxl-6 col-xl-9 col-lg-6 col-md-6 col-sm-8 col-12">
+                            <div class="card custom-card shadow-none mb-0">
+                                <div class="top-left"></div>
+                                <div class="top-right"></div>
+                                <div class="bottom-left"></div>
+                                <div class="bottom-right"></div>
+                                <div class="card-body p-5">
+                                    <div class="mb-3 d-flex justify-content-center">
+                                        <a href="{{url('index')}}">
+                                            <img src="{{asset('build/assets/images/brand-logos/desktop-logo.png')}}" alt="logo" class="authentication-brand desktop-logo">
+                                            <img src="{{asset('build/assets/images/brand-logos/desktop-dark.png')}}" alt="logo" class="authentication-brand desktop-dark">
+                                        </a>
+                                    </div>
+                                    <p class="h5 mb-3 text-center">Lock Screen</p>
+                                    <div class="row gy-3">
+                                        <div class="col-xl-12 mb-2">
+                                            <label for="lockscreen-password" class="form-label text-default">Password</label>
+                                            <div class="position-relative">
+                                                <input type="password" class="form-control create-password-input" id="lockscreen-password" placeholder="password">
+                                                <a href="javascript:void(0);" class="show-password-button text-muted" onclick="createpassword('lockscreen-password',this)"  id="button-addon2"><i class="ri-eye-off-line align-middle"></i></a>
+                                            </div>
+                                            <div class="mt-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label text-muted fw-normal" for="defaultCheck1">
+                                                        Remember password ?
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 d-grid mt-2">
+                                            <a href="{{url('index')}}" class="btn btn-primary">Unlock</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class="fs-12 text-muted mt-3 mb-0">Try unlock with different methods <a class="text-success" href="javascript:void(0);"><u>Finger print</u></a> / <a class="text-success" href="javascript:void(0);"><u>Face Id</u></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+@endsection
+
+@section('scripts')
+
+        <!-- Swiper JS -->
+        <script src="{{asset('build/assets/libs/swiper/swiper-bundle.min.js')}}"></script>
+
+        <!-- Internal Authentication JS -->
+        @vite('resources/assets/js/authentication.js')
+
+
+        <!-- Show Password JS -->
+        <script src="{{asset('build/assets/show-password.js')}}"></script>
+
+@endsection

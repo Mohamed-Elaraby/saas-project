@@ -1,0 +1,24 @@
+let discount_amount_placeholder = document.getElementById('discount_amount_placeholder').value;
+let current_currency__ = document.getElementById('current_currency').value;
+
+
+// create supplier discount
+$('#supplier_discount_button').on('change', function () {
+    $('.supplier_discount_container').empty();
+    if ($(this).is(':checked'))
+    {
+        let html = '    <div class="input-group my-group supplier_discount_amount">\n' +
+            '        <select data-trigger id="supplier_discount_type" class="form-select supplier_discount_type" name="supplier_discount_type">\n' +
+            '            <option value="0">'+ current_currency__ +'</option>\n' +
+            '            <option value="1">%</option>\n' +
+            '        </select>\n' +
+            '       <input id="supplier_discount" name="supplier_discount" type="text" class="form-control" autocomplete="off">\n' +
+            '       <input id="supplier_discount_amount" name="supplier_discount_amount" type="hidden" class="form-control" autocomplete="off">\n' +
+            '    </div>\n' ;
+        $('.supplier_discount_container').append(html);
+    }
+    else
+    {
+        $('.supplier_discount_amount').remove();
+    }
+})

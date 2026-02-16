@@ -1,0 +1,56 @@
+<?php
+
+namespace App\Models;
+
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ClientPayment extends Model
+{
+    use HasFactory;
+    protected $guarded = [];
+
+    protected function getNotesAttribute($value)
+    {
+        return nl2br($value);
+    }
+
+    public function getUpdatedAtAttribute($value)
+    {
+        return Carbon::parse($value) -> format('d/m/Y h:i:s a');
+    }
+
+    public function user ()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function branch ()
+    {
+        return $this->belongsTo(Branch::class);
+    }
+
+    public function client ()
+    {
+        return $this->belongsTo(Client::class);
+    }
+
+    public function clientTransactions ()
+    {
+        return $this->hasMany(ClientTransaction::class);
+    }
+
+    public function moneySafes ()
+    {
+        return $this->hasMany(MoneySafe::class);
+    }
+    public function banks ()
+    {
+        return $this->hasMany(Bank::class);
+    }
+    public function statements ()
+    {
+        return $this->hasMany(Statement::class);
+    }
+}
