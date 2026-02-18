@@ -47,7 +47,7 @@
                                 <div class="card-body pb-2">
                                     <header>
                                         <h1>Spare Parts Management System: The Ultimate Solution for Efficiency</h1>
-                                        <a target="_blank" href="http://spareparts-system.seven-scapital.com">
+                                        <a target="_blank" href="{{ route('products.sparePartsManagementSystem') }}">
                                             <img class="img-fluid" src="{{ asset('storage/front/products/spareParts/spare-parts-management-system.png') }}" alt="Spare Parts Management System in uae saudi arabia ksa" loading="lazy">
                                         </a>
                                     </header>
@@ -83,12 +83,12 @@
 
 
 
-                                        <a href="http://spareparts-system.seven-scapital.com" class="demo-btn text-danger"><strong>Try our demo now and see how SEVENSCAPITAL can revolutionize your spare parts management system!</strong></a>
+                                        <a href="{{ route('products.sparePartsManagementSystem') }}" class="demo-btn text-danger"><strong>Try our demo now and see how SEVENSCAPITAL can revolutionize your spare parts management system!</strong></a>
 
                                         <section>
                                             <h3>Get Our Spare Parts Management System</h3>
                                             <p>
-                                                Ready to enhance your business operations with SEVENSCAPITAL’s Spare Parts Management System? Our system is designed to streamline your processes and improve efficiency. If you're interested in learning more or getting started, feel free to <strong><a target="_blank" class="text-danger" href="{{ route('home') }}#contact">contact us today</a></strong> for a <strong><a href="http://spareparts-system.seven-scapital.com">Demo</a></strong> or more information.
+                                                Ready to enhance your business operations with SEVENSCAPITAL’s Spare Parts Management System? Our system is designed to streamline your processes and improve efficiency. If you're interested in learning more or getting started, feel free to <strong><a target="_blank" class="text-danger" href="{{ route('home') }}#contact">contact us today</a></strong> for a <strong><a href="{{ route('products.sparePartsManagementSystem') }}">Demo</a></strong> or more information.
                                             </p>
                                         </section>
 
@@ -112,7 +112,7 @@
                                 <div class="card-body">
                                     <div class="blog-popular-tags">
                                         <div class="d-grid gap-2 mb-4">
-                                            <a target="_blank" href="http://spareparts-system.seven-scapital.com" class="btn btn-danger btn-wave" type="button">Try Our Demo <i class="ri-play-circle-fill"></i></a>
+                                            <a target="_blank" href="{{ route('products.sparePartsManagementSystem') }}" class="btn btn-danger btn-wave" type="button">Try Our Demo <i class="ri-play-circle-fill"></i></a>
                                         </div>
                                     </div>
                                 </div>

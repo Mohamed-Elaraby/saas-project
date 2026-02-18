@@ -250,12 +250,6 @@ Route::group(
     Route::get('products/spare-parts-management-system', [PagesController::class, 'index'])->name('products.sparePartsManagementSystem');
     Route::get('products/automotive-service-center-management-system', [PagesController::class, 'index'])->name('products.automotiveServiceCenterManagementSystem');
 
-Route::get('go-to-spareparts', function () {
-    // Redirect للرابط القديم على HTTP
-    return redirect()->away('http://spareparts.seven-scapital.com');
-})->name('spareparts.redirect');
-
-
 Auth::routes(
 //        [
 //            'register' => false, // Registration Routes...
