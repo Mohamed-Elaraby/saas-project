@@ -13,7 +13,7 @@
     <meta property="og:title" content="Spare Parts Management System | {{ config('app.name') }}">
     <meta property="og:description" content="Learn how to enhance your spare parts management with advanced systems designed for better inventory control and operational efficiency.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ route('products.sparePartsManagementSystem') }}">
+    <meta property="og:url" content="https://spareparts.seven-scapital.com">
     <meta property="og:image" content="{{ asset('storage/front/products/spareParts/spare-parts-management-system.png') }}">
 
     <!-- Twitter Card Meta Tags -->
@@ -24,7 +24,7 @@
     <meta name="twitter:site" content="@sevenscapital">
 
     <!-- Additional SEO Tags -->
-    <link rel="canonical" href="{{ route('products.sparePartsManagementSystem') }}">
+    <link rel="canonical" href="https://spareparts.seven-scapital.com">
     <meta name="language" content="en">
 @endsection
 
@@ -47,7 +47,7 @@
                                 <div class="card-body pb-2">
                                     <header>
                                         <h1>Spare Parts Management System: The Ultimate Solution for Efficiency</h1>
-                                        <a target="_blank" href="{{ route('products.sparePartsManagementSystem') }}">
+                                        <a target="_blank" href="https://spareparts.seven-scapital.com">
                                             <img class="img-fluid" src="{{ asset('storage/front/products/spareParts/spare-parts-management-system.png') }}" alt="Spare Parts Management System in uae saudi arabia ksa" loading="lazy">
                                         </a>
                                     </header>
@@ -83,12 +83,12 @@
 
 
 
-                                        <a href="{{ route('products.sparePartsManagementSystem') }}" class="demo-btn text-danger"><strong>Try our demo now and see how SEVENSCAPITAL can revolutionize your spare parts management system!</strong></a>
+                                        <a href="https://spareparts.seven-scapital.com" class="demo-btn text-danger"><strong>Try our demo now and see how SEVENSCAPITAL can revolutionize your spare parts management system!</strong></a>
 
                                         <section>
                                             <h3>Get Our Spare Parts Management System</h3>
                                             <p>
-                                                Ready to enhance your business operations with SEVENSCAPITAL’s Spare Parts Management System? Our system is designed to streamline your processes and improve efficiency. If you're interested in learning more or getting started, feel free to <strong><a target="_blank" class="text-danger" href="{{ route('home') }}#contact">contact us today</a></strong> for a <strong><a href="{{ route('products.sparePartsManagementSystem') }}">Demo</a></strong> or more information.
+                                                Ready to enhance your business operations with SEVENSCAPITAL’s Spare Parts Management System? Our system is designed to streamline your processes and improve efficiency. If you're interested in learning more or getting started, feel free to <strong><a target="_blank" class="text-danger" href="{{ route('home') }}#contact">contact us today</a></strong> for a <strong><a href="https://spareparts.seven-scapital.com">Demo</a></strong> or more information.
                                             </p>
                                         </section>
 
@@ -112,7 +112,7 @@
                                 <div class="card-body">
                                     <div class="blog-popular-tags">
                                         <div class="d-grid gap-2 mb-4">
-                                            <a target="_blank" href="{{ route('products.sparePartsManagementSystem') }}" class="btn btn-danger btn-wave" type="button">Try Our Demo <i class="ri-play-circle-fill"></i></a>
+                                            <a target="_blank" href="https://spareparts.seven-scapital.com" class="btn btn-danger btn-wave" type="button">Try Our Demo <i class="ri-play-circle-fill"></i></a>
                                         </div>
                                     </div>
                                 </div>
